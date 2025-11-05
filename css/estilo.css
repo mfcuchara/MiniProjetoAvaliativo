@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Titan+One&display=swap');
+
+body{
+    background-color: #EED2EE;
+    margin: 100px;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #8B7B8B;
+    
+}
+
+#main{
+    background-color: #FFE1FF;
+    line-height: 1.6;
+    border-radius: 15px; 
+
+}
+
+label{
+    width: 20px;
+    font-size: 30px;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#notas{
+    text-align: center;
+    font-size: 22px;
+    padding: 10px 20px;
+    font-weight: bold;
+    
+}
+
+#BoxNotas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7%;
+    
+}
+
+#notasUrgentes{
+    background-color: white;
+    border: 15px solid red;
+    padding: 10px;
+    width: 300px;
+    height: 450px;
+    margin: 30px;
+    border-radius: 15px;
+    
+}
+
+#notasNaoUrgentes{
+    background-color: white;
+    border: 15px solid #FFF700;
+    padding: 10px;
+    width: 300px;
+    height: 450px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#btnInserir{
+    background-color: #8B7B8B;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+input[type="button"]{
+    background-color: #CFCFCF;
+    color: black;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+
+h3{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#listaUrgentes{
+    text-align: left;
+    font-size: 20px;
+}
+
+#listaNaoUrgentes{
+    text-align: left;
+    font-size: 20px;
+}
+
