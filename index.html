@@ -1,0 +1,45 @@
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas Rápidas</title>
+    <script type="text/javascript" src="js/notasrapidas.js"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+   <h1>Notas Rápidas</h1>
+    <div id="main">
+    <div id="notas">
+    <p>
+        <label for="InserirNota">Digite:</label> 
+        <input type="text" id="InserirNota">
+        <input type="button" id="btnInserir" value="Adicionar" onclick="adicionar()">
+        <br><br>
+        <input type="checkbox" id="UrgenteBox">
+        <label for="notaUrgente">Urgente</label>
+        <input type="checkbox" id="NaoUrgenteBox">
+        <label for="notaNaoUrgente">Não Urgente</label>
+
+    </p>
+    </div>
+  
+    <div id="BoxNotas">
+        <div id="notasUrgentes">
+            <h3>URGENTES</h3>
+            <input type="button" value="Excluir Nota" onclick="excluirNotaUrgente()">
+            <input type="button" value="Excluir Todas" onclick="excluirTodasUrgentes()">
+            <ul id="listaUrgentes"></ul>
+        
+        </div>
+        <div id="notasNaoUrgentes">
+            <h3>NÃO URGENTES</h3>
+            <input type="button" value="Excluir Nota" onclick="excluirNotaNaoUrgente()">
+            <input type="button" value="Excluir Todas" onclick="excluirTodasNaoUrgentes()">
+            <ul id="listaNaoUrgentes"></ul>
+
+        </div>
+    </div>
+ </div>
+ 
+</body>
+</html>
