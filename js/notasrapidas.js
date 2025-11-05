@@ -38,6 +38,10 @@ function excluirNotaUrgente() {
 
 function excluirTodasUrgentes() {
    var notas = document.querySelectorAll("#listaUrgentes li.urgente");
+    if(notas.length==0){
+    alert("Não há notas não urgentes para remover!")
+    return
+}
     notas.forEach(n => n.remove());
 }
 
@@ -50,5 +54,10 @@ function excluirNotaNaoUrgente() {
 
 function excluirTodasNaoUrgentes() {
     var notas = document.querySelectorAll("#listaNaoUrgentes li.naoUrgente");
+    if(notas.length==0){
+    alert("Não há notas não urgentes para remover!")
+    return
+}
     notas.forEach(n => n.remove());
+
 }
